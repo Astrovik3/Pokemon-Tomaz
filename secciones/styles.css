@@ -38,6 +38,7 @@ input{
 	margin-bottom: 15px;
 }
 
+
 .generico{
 	width: 80%;
 	font-family: verdana;
@@ -64,7 +65,6 @@ input{
 	background-color: red;
 	box-shadow: 7px 7px 10px #737373;
 	transform: scale(1.1);
-
 }
 .iconRedSocial{
 	margin-right: 2%;
@@ -75,6 +75,7 @@ input{
 .cartasVenta:hover{
 	transform: scale(1.1);
 }
+
 
 #cartasMuestra01{
 	width: 400px;
@@ -117,7 +118,7 @@ input{
 	text-align: center;
 }
 #divMenu{
-	display: flex; /*PARA CENTRAR LA LISTA EN EL DIV*/
+	display: flex;   /*PARA CENTRAR LA LISTA EN EL DIV*/
 	justify-content: center;
 	border-top: 2px solid #454545;
 	border-bottom: 2px solid #454545;
@@ -129,11 +130,11 @@ input{
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	margin: 0px; /*MARGIN Y PADDING 0 PORQUE TENIA UN POCO POR DEFAULT*/
+	margin: 0px;   /*MARGIN Y PADDING 0 PORQUE TENIA UN POCO POR DEFAULT*/
 	padding: 0px;
 }
 #menuBarra a{
-	display: flex; /*PARA CENTRAR EL TEXTO*/
+	display: flex;   /*PARA CENTRAR EL TEXTO*/
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
