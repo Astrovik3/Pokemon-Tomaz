@@ -116,6 +116,13 @@ input{
 	padding-right: 15px;
 	text-align: center;
 }
+#contactoGrid3{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 30px;
+	justify-content: space-between;
+	margin-top: 20px;
+}
 #divMenu{
 	display: flex;   /*PARA CENTRAR LA LISTA EN EL DIV*/
 	justify-content: center;
@@ -239,6 +246,9 @@ input{
 	}
 	#footerLinks{
 		border-left: solid #737373 3px;
+	}
+	#contactoGrid3{
+	grid-template-columns: 1fr 1fr;
 	}
 }
 
