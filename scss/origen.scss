@@ -2,16 +2,19 @@
 /* COMENTARIO DE PRUEBA 2 */
 
 
+@mixin margandpadd($margin, $padding){
+	margin: $margin;
+	padding: $padding;
+} 
+
 body{
-	margin: 0px;
-	padding: 0px;
+	@include margandpadd(0px, 0px);
 }
 
 footer{
+	@include margandpadd(0px, 5px);
 	background-color: #454545;
 	color: white;
-	padding: 5px;
-	margin: 0px;
 }
 h2{
 	font-family: arial;
@@ -35,11 +38,10 @@ h2{
 	margin-bottom: 7px;
 	background-image: url("../images/pokemonBackground.jpg");
 	ul{
+		@include margandpadd(0px, 0px);
 		display: flex;
 		justify-content: center;
 		width: 100%;
-		margin: 0px;  
-		padding: 0px;
 		a{
 			display: flex; 
 			justify-content: center;
@@ -92,7 +94,6 @@ h2{
 		}
 	}
 }
-
 
 /*MOBILE*/
 @media screen and (max-width: 767px){
